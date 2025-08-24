@@ -1,0 +1,4 @@
+// --- Supabase Credentials ---
+const String supabaseUrl = "https://lropzpgfrbvchmsnugza.supabase.co";
+const String supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxyb3B6cGdmcmJ2Y2htc251Z3phIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU5NjYwMjYsImV4cCI6MjA3MTU0MjAyNn0.73_sx9no9SO9xS73eFfhT4p_c2OF_ZbaljxTM52J9M4";
+const String tableName = "sound_data";
