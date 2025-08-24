@@ -1,0 +1,33 @@
+1. Component Pin Diagrams
+Arduino Uno Setup
+Here is the pin connection diagram for your Arduino Uno and the connected components. The sound sensors are connected to analog pins, the LEDs to digital pins, the NRF24L01 to the hardware SPI pins (plus the user-defined CE and CSN), and both the RTC and OLED display share the I2C bus.
+Component	Arduino Uno Pin
+CZN-15E Sensor A	A0
+CZN-15E Sensor B	A1
+CZN-15E Sensor C	A2
+CZN-15E Sensor D	A3
+AB Road - Red LED	Digital 2
+AB Road - Green LED	Digital 3
+CD Road - Red LED	Digital 4
+CD Road - Green LED	Digital 5
+NRF24L01 - CE	Digital 9
+NRF24L01 - CSN	Digital 10
+NRF24L01 - MOSI	Digital 11 (MOSI)
+NRF24L01 - MISO	Digital 12 (MISO)
+NRF24L01 - SCK	Digital 13 (SCK)
+MH-RTC - SDA	A4 (SDA)
+MH-RTC - SCL	A5 (SCL)
+0.96" OLED - SDA	A4 (SDA)
+0.96" OLED - SCL	A5 (SCL)
+All Components - VCC	5V
+All Components - GND	GND
+ESP32 Setup
+This diagram outlines the connections for the ESP32, which is dedicated to receiving data from the Arduino via its NRF24L01 module.
+Component	ESP32 Pin
+NRF24L01 - CE	GPIO 4
+NRF24L01 - CSN	GPIO 5
+NRF24L01 - MOSI	GPIO 23 (MOSI)
+NRF24L01 - MISO	GPIO 19 (MISO)
+NRF24L01 - SCK	GPIO 18 (SCK)
+NRF24L01 - VCC	3.3V
+NRF24L01 - GND	GND
